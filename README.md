@@ -1,4 +1,6 @@
-Webiste create for my own programming school for kids
+## Description: 
+
+The site is intended for people who want to buy local vegetables and fruits for which it is currently season. This will help support local sellers, buy Polish products and buy products with lower prices.
 
 ## Technologies which I want to use here:
 
@@ -12,4 +14,5 @@ In progress :)
 
 ## To do
 
-* Creating a section: about me, price list, teaching plan
+* List of products
+* The period in which individual vegetables, fruits and herbs occur
