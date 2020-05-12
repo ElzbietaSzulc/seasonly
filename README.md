@@ -4,7 +4,7 @@ The site is intended for people who want to buy local vegetables and fruits for 
 
 ## Technologies which I want to use here:
 
-* [React](https://reactjs.org/) :speedboat:
+* [VueJS](https://vuejs.org/) :speedboat:
 * [Sass](https://sass-lang.com/) :helicopter:
 
 
