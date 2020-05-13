@@ -2,22 +2,30 @@
   "name": "seasonly",
   "version": "1.0.0",
   "description": "The site is intended for people who want to buy local vegetables and fruits for which it is currently season. This will help support local sellers, buy Polish products and buy products with lower prices.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ElzbietaSzulc/programmingschool.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ElzbietaSzulc/programmingschool/issues"
-  },
   "homepage": "https://github.com/ElzbietaSzulc/programmingschool#readme",
   "dependencies": {
     "vue": "^2.6.11",
-    "vue-cli": "^2.9.6"
+    "vue-cli": "^2.9.6",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "vue-loader": "^9.7.0",
+    "webpack": "2.1.0-beta.25",
+    "webpack-dev-server": "2.1.0-beta.0"
   }
 }
